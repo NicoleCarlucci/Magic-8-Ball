@@ -28,9 +28,9 @@ magic8ball.askAQuestion = function(question)
 $("#answer").hide();
 
 var onClick = function() {
-		var question = setTimeout(prompt("Ask a yes/no question!"), 500);
-	    magic8ball.askAQuestion(question);
-	    $("#8ball").effect( "shake" );
+	  var question = setTimeout(prompt("Ask a yes/no question!"), 500);
+		  magic8ball.askAQuestion(question);
+			$("#8ball").effect( "shake" );
 };
 
 $ ("#questionButton").click( onClick );
